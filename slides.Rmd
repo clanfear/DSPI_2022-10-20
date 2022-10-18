@@ -23,11 +23,22 @@ knitr::opts_chunk$set(echo = FALSE)
 ![](img/crim_paper.png)
 ]
 
-???
 
-Thank you for having me, pleasure to be here.
+---
+# This Started Earlier
 
-I conduct theory-driven research on the ways communities respond to crime. As an example, I am presenting my recent Criminology paper proposing an integrative approach between collective efficacy and the built environment using routine activities theory.
+![](img/annual_review.png)
+
+
+---
+# Genesis
+
+Situational opportunity lit focuses heavily on built environment
+
+Recent field experiments show causal relationship between removing certain properties and violence going down
+
+So, what I asked is, what is the natural assignment process for this treatment?
+
 
 ---
 # Collective Efficacy
@@ -242,6 +253,10 @@ Integrates collective efficacy with existing theory:
 Political economy of place is about assignment process of built environment features
 
 Public social control as ability to secure external resources
+
+---
+
+# The Larger Project
 
 
 

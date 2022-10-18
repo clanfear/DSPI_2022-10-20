@@ -4,16 +4,22 @@
     <title>Collective Efficacy and the Built Environment</title>
     <meta charset="utf-8" />
     <meta name="author" content="Charles C. Lanfear" />
-    <script src="libs/header-attrs-2.11/header-attrs.js"></script>
+    <script src="libs/header-attrs-2.17/header-attrs.js"></script>
     <link rel="stylesheet" href="theme/nuff-theme.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
 class: center, top, title-slide
 
+.title[
 # Collective Efficacy and the Built Environment
+]
+.author[
 ### Charles C. Lanfear
-### March 31st, 2022
+]
+.date[
+### October 20th, 2022
+]
 
 ---
 
@@ -156,6 +162,11 @@ Some environment features foster or inhibit use of space and interaction; this i
 
 Work unifies a number of separate data sources.
 
+
+---
+
+MORE DATA
+
 ---
 # Methods
 
@@ -172,6 +183,26 @@ Work unifies a number of separate data sources.
 
    * Hierarchical negative binomial (H1) and linear regressions (H2, H3)
    * D-separation tests of past collective efficacy and each type of present crime (dashed)
+
+---
+
+![](img/measurement_model.svg)
+
+---
+
+![](img/measurement_model_cfa.svg)
+
+---
+
+![](img/measurement_model_hlm.svg)
+
+---
+
+![](./img/crime_model.png)
+
+???
+
+Comment on use of NB model
 
 ---
 # Key Results
@@ -221,7 +252,11 @@ Political economy of place is about assignment process of built environment feat
 
 Public social control as ability to secure external resources
 
---
+
+
+---
+
+# Going Forward
 
 Sets up future research:
 
@@ -235,6 +270,10 @@ Sets up future research:
 Will be extending this work using new wave of the PHDCN as well as data from Seattle.
 
 Also ties into my new work on Airbnb's and crime in London
+
+--
+
+Book chapter on measuring latent ecological variables with Thiago Oliveira
 
 ---
 count: false
@@ -251,7 +290,7 @@ class: inverse
 
 ---
 count: false
-![](./img/crime_model.png)
+
 
 ---
 count: false
@@ -342,6 +381,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable
