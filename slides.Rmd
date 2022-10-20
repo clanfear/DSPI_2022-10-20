@@ -125,7 +125,7 @@ Similarly consistent empirical support
 **Neighbourhoods with high collective efficacy in the past will have low crime in the present because they prevented and removed criminogenic features of the built environment.**
 
 ---
-# USe Value
+# Use Value
 
 
 > ... potentially criminogenic
@@ -279,6 +279,12 @@ Vacant Lots
 
    * Hierarchical negative binomial (H1) and linear regressions (H2, H3)
    * D-separation tests of past collective efficacy and each type of present crime (dashed)
+
+---
+
+.image-540[
+![](img/ce-measures.png)
+]
 
 ---
 
