@@ -27,7 +27,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ---
 
 .image-480[
-![](img/annual_review.png)
+![](img/annual_review.PNG)
 ]
 
 ---
